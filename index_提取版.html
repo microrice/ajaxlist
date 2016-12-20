@@ -1,0 +1,56 @@
+<!doctype html>  
+<html dir="ltr" lang="en-US">
+<meta charset="utf-8">
+	<head>
+		<!-- jqPagination styles -->
+		<link rel="stylesheet" href="./css/jqpagination.css" />
+		
+		<!-- scripts -->
+		<script src="./js/jquery-1.7.2.min.js"></script>
+		<script src="./js/jquery.jqpagination.js"></script>
+		
+	</head>
+	<body>
+		<div class="doc_list">
+
+		</div>
+		<div class="gigantic pagination">
+		    <a href="#" class="first" data-action="first">&laquo;</a>
+		    <a href="#" class="previous" data-action="previous">&lsaquo;</a>
+		    <input type="text" readonly="readonly" />
+		    <a href="#" class="next" data-action="next">&rsaquo;</a>
+		    <a href="#" class="last" data-action="last">&raquo;</a>
+		</div>			
+
+	</body>
+</html>
+<script>
+	var page_index = 1;
+	var perPage_num = 7;
+	var rootURLAddr = "js/data.php";
+	var totalRows = 70;//共计多少条
+	$('.pagination').jqPagination({
+		link_string	: '/?page={page_number}',
+		max_page	: (totalRows % perPage_num == 0) ? parseInt(totalRows / perPage_num) : parseInt((totalRows / perPage_num) + 1),
+		paged		: function(page) {//回发事件
+                        
+                                page_index = page;
+                                AjaxPost({"att":"whiteapply","Start":page_index,"Length":7});
+			$('.log').prepend('<li>Requested page ' + page + '</li>');
+		}
+	})
+
+	AjaxPost({"att":"whiteapply","Start":"0","Length":"7"});
+	function AjaxPost( data) {
+	        $.ajax({
+	            type: "post",
+	            async: true,
+	            url: rootURLAddr,
+	            data: data,
+	            dataType: "json",
+	            error: function(XmlHttpRequest,textStatus) {
+	                Showbo.Msg.alert('未能连接服务器，请稍候……');
+	            }
+	        });
+	    }
+</script>

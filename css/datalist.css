@@ -1,0 +1,140 @@
+@charset "utf-8";
+body{font-size:12px;font-family:"宋体";}
+
+div,f1,ul,li,span,table,dt,dl,dd,body,button,p,h2{padding:0;margin:0;border:0;list-style:none;}
+a:link,a:visited{color:#fff; text-decoration:none;}
+a:hover{text-decoration:none;}
+
+/* 1 */
+#main{width:822px;height:572px;margin:0px auto;}
+.main_top{width:822px;height:45px;background-color:#2F83E0;padding-top:7px;}
+.main_top_left{width:160px;height:30px;float:left;margin-left:4px;}
+.logo{float:left;}
+.logo_left{width:29px;height:29px;float:left;}
+.logo_font{float:right;margin-top:5px;color:#FFF;}
+.main_top_right{width:105px;height:30px;float:right;margin-right:4px;}
+.menu{float:right;margin-top:5px;}
+.contal{width:12px;hieght:13px;float:right;cursor:pointer;}
+.small{width:13px;height:2px;float:right;margin-left:20px;}
+.close{width:12px;height:13px;float:right;margin-left:20px;}
+
+.main_top_M{width:630px;height:50px;margin:20px 80px;float:left;}
+.main_top_M .main_top_M_left{width:380px;height:50px;float:left;}
+.main_top_M dl{float:left;margin-top:5px;}
+.main_top_M dl dt{float:left;}
+.main_top_M dl dd{float:left;color:#FFF;font-family:"方正兰亭细黑_GBK";margin:10px;}
+.main_top_M .main_top_M_right{width:250px;height:78px;float:left;}
+.main_top_M .main_top_M_right li{float:left;margin:10px 30px 0px 0px;}
+
+/* 2 */
+.Nav{width:822px;height:35px;background:url(../images/home/nav.gif) repeat-x;float:left;}
+.FontBold{font-weight:600;}
+.Nav .ScanLog{width:200px;height:27px;margin:4px 70px 0px 60px;float:left;}
+.Nav .ScanLog dt{float:left;margin-right:5px;}
+.Nav .ScanLog dd{color:#FFF;font-family:"方正兰亭细黑_GBK";font-size:14px;align:center;margin-top:6px;}
+
+.Nav .VirusBox{width:200px;height:27px;margin:4px 70px 0px  0px;float:left;}
+.Nav .VirusBox dt{float:left;margin-right:5px;}
+.Nav .VirusBox dd{color:#FFF;font-family:"方正兰亭细黑_GBK";font-size:14px;align:center;margin-top:6px;}
+
+.button{padding-top:0px;top:10px;right:10px;width:56px; border-radius:3px; font-family:微软雅黑; cursor:pointer; color:#fff; border:none; height:25px; text-align:center;  background-color:#72D1FF;text-align:center; margin:0px auto;}
+.button:hover{background-color:#EC6D51; font-family:微软雅黑; border-radius: 3px;width:56px;margin:0px auto; border:none; height:25px; cursor:pointer; color:#fff;}
+.button2{padding-top:0px;top:0px;left:0px;width:48px; border-radius:3px; font-family:微软雅黑; cursor:pointer; color:#fff; border:none; height:25px; text-align:center;  background-color:#72D1FF;text-align:center; margin:0px auto;}
+.button2:hover{background-color:#EC6D51; font-family:微软雅黑; border-radius: 3px;width:48px;margin:0px auto; border:none; height:25px; cursor:pointer; color:#fff;}
+.button3{position:absolute;padding-top:4px;top:0px;right:3px;width:56px; border-radius:3px; font-family:微软雅黑; cursor:pointer; color:#fff; border:none; height:22px; text-align:center;  background-color:#72D1FF;text-align:center; margin:0px auto;}
+.button3:hover{background-color:#EC6D51; font-family:微软雅黑; border-radius: 3px;width:56px;margin:0px auto; border:none; height:22px; cursor:pointer; color:#fff;}
+
+/* 3 */
+.main_tabdiv{width:820px;height:485px;float:left;border:1px solid #cacaca;}
+.main_tabdiv .scan_items{float:left;margin-top:120px;margin-left:170px;}
+.main_tabdiv .scan_items dl{float:left;}
+.main_tabdiv .scan_items dt{float:left;}
+.main_tabdiv .scan_items dd{float:left;color:#4E4E4E;font-family:"方正兰亭细黑_GBK";}
+.main_tabdiv .scan_count{float:left;margin-top:120px;margin-left:50px;}
+.main_tabdiv .scan_count dl{float:left;}
+.main_tabdiv .scan_count dt{float:left;}
+.main_tabdiv .scan_count dd{float:left;color:#4E4E4E;font-family:"方正兰亭细黑_GBK";}
+
+.nodisplay{display:none;}
+
+#datavirus_head {width:820px; height:40px; color:#585859; font-weight:600; font-size:12px; border-bottom:1px solid #cacaca;}
+#datavirus_head .count1{width:50px; line-height:28px;}
+#datavirus_head .time1{width:90px;}
+#datavirus_head .virus1{width:200px;}
+#datavirus_head .path1{width:388px;}
+#datavirus_head .result1{width:92px;}
+
+#datavirus_data1 {width:820px; height:auto;}
+#datavirus_data1 td{color:#4e4e4e; font-size:12px; line-height:33px;}
+#datavirus_data1 .count{width:50px;}
+#datavirus_data1 .time{width:90px;}
+#datavirus_data1 .virus{width:200px;}
+#datavirus_data1 .path{width:388px;} 
+#datavirus_data1 .result{width:92px;}
+
+#datavirus_data2 {width:820px; height:auto;}
+#datavirus_data2 td{color:#4e4e4e; font-size:12px; line-height:33px;}
+#datavirus_data2 .count{width:50px;}
+#datavirus_data2 .time{width:90px;}
+#datavirus_data2 .virus{width:200px;}
+#datavirus_data2 .path{width:388px;} 
+#datavirus_data2 .result{width:92px;}
+
+#whitelist_head {width:820px; height:40px; color:#585859; font-weight:600; font-size:12px; border-bottom:1px solid #cacaca;}
+#whitelist_head .count{width:50px; line-height:28px;}
+#whitelist_head .checkbox{width:50px;}
+#whitelist_head .fpath{width:600px;}
+#whitelist_head .cbutton{width:120px;}
+#whitelist_data {width:820px; height:auto;}
+#whitelist_data td{color:#4e4e4e; font-size:12px; line-height:40px;}
+#whitelist_data .count{width:50px;}
+#whitelist_data .checkbox{width:50px;}
+#whitelist_data .fpath{width:600px;} 
+#whitelist_data .cbutton{width:120px;}
+
+.blk{width:70px;height:auto;position:relative;}
+.blk .head, .blk .head-right, .blk .foot, .blk .foot-right{background:url(../images/pop/pop_up_bg.png);overflow:hidden;height:4px;}
+.blk .head{padding-left:4px;margin-top:4px;}
+.blk .head-right{background-position:right top;}
+.blk .foot{padding-left:4px;background-position:left bottom;_height:3px;}
+.blk .foot-right{background-position:right bottom;}
+.blk .main{border-left:2px solid #85B6E2;border-right:2px solid #85B6E2;position:relative;background:#fff;}
+.blk .main h2{font:bold 16px "Microsoft YaHei";padding-bottom:0px;color:#85B6E2;}
+.blk .main ul{padding:2px;zoom:1;overflow:hidden;font-size:12px;}
+.blk .main ul li{width:60px;float:left;text-align:center;line-height:30px;}
+.blk .main ul li a{color:#2b9bc5;display:block;line-height:27px;vertical-align:middle;}
+.blk .main ul li a:hover{font-weight:600; color:#2b9bc5;}
+.blk .main ul li a img{height:16px; width:16px; border:none;vertical-align:middle;margin-right:2px;}
+
+a.closeBtn{position:absolute;padding-top:0px;top:0px;right:3px;width:20px; border-radius:3px; font-family:微软雅黑; cursor:pointer; color:#fff; border:none; height:18px; text-align:center;  background-color:#72D1FF;text-align:center; margin:0px auto;}
+a.closeBtn:hover{background-color:#EC6D51; font-family:微软雅黑; border-radius: 3px;width:20px;margin:0px auto; border:none; height:18px; cursor:pointer; color:#fff;}
+
+.scan_running{float:left;margin-top:120px;margin-left:230px;}
+.scan_running dl{float:left;margin-top:5px;}
+.scan_running dl dt{float:left;}
+.scan_running dl dd{float:left;margin-top:40px;color:#4E4E4E;font-family:"方正兰亭细黑_GBK";}
+
+.datahead{width:820px;height:65px;border-bottom:1px solid #cacaca;}
+.input {width:120px;}
+.inputtxt {width:65px; text-align:right; font-size:12px; font-family:"方正兰亭细黑_GBK"; padding-right:3px;}
+
+/* <input type="file" id="inputFile" />+ 选择文件
+._fileBox {margin:15px 15px 0px 6px; position: relative; width: 90px; height: 24px; background-color: #53AD3F; background-image: url(images/bg.png); background-repeat: no-repeat; background-position: 0 0; background-attachment: scroll; line-height: 24px; text-align: center; color: white; cursor: pointer; overflow: hidden; z-index: 1; border-radius:3px; }
+._fileBox input {position: absolute; width: 90px; height: 24px; line-height: 24px; font-size: 16px; opacity: 0; filter: "alpha(opacity=0)"; filter: alpha(opacity=0); -moz-opacity: 0; left: -5px; top: -2px; cursor: pointer; z-index: 2; }
+*/
+._fileBox {height:60px;margin:30px 0px 15px 6px;}
+
+.configdiv{float:left;width:820px;}
+.configdiv dl{border-bottom:2px solid #cacaca;}
+.configdiv dl dd{padding-left:10px;line-height:65px;color:#558899;font-size:14px;font-weight:600;font-family:"方正兰亭细黑_GBK";}
+.configdiv table{width:820px;border:none;margin-top:20px;}
+.configdiv table tr{line-height:45px;}
+.configdiv .input{width:150px; height:24px;}
+.configdiv .inputtxt{width:105px; text-align:right; font-size:12px; font-family:"方正兰亭细黑_GBK"; padding-right:6px;}
+
+.logClear{float:left:width:820px;}
+.logClear .head{padding-left:10px;line-height:65px;color:#558899;font-size:14px;font-weight:600;font-family:"方正兰亭细黑_GBK";}
+.logClear .head span{font-weight:600;color:red;}
+.logClear fieldset{float:left;width:780px;height:180px;border:1px solid #558899;border-radius:3px;margin-left:10px;margin-bottom:12px;}
+.logClear fieldset dl{margin:20px auto;}
+.logClear fieldset dl dd{line-height:45px;vertical-align:middle;}
